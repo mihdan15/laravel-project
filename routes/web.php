@@ -16,3 +16,11 @@ Route::get('/', 'IndexController@home');
 Route::get('/register', 'AuthController@register');
 
 Route::post('/welcome', 'AuthController@submit');
+
+Route::get('/table', function(){
+	return view('table.table');
+});
+
+Route::get('/data-tables', function(){
+	return view('table.data-tables');
+});

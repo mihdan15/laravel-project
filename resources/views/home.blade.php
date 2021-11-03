@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
-</head>
-<body>
-	<h1>Media Online</h1>
+@extends('layout.master')
+
+@section('judul')
+	Halaman Home
+@endsection
+
+@section('judul2')
+	Media Online
+@endsection
+
+@section('content')
+	
 	<h3>Social Media Developer</h3>
 	<p>Belajar dan berbagi agar hidup menjadi lebih baik</p>
 	<h3>Benefit Join di Media Online</h3>
@@ -22,5 +25,5 @@
 		<li>Mendaftarkan di <a href="/register">Form Sign Up</a></li>
 		<li>Selesai</li>
 	</ol>
-</body>
-</html>
+@endsection
+	

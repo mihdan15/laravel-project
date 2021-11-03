@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Register</title>
-</head>
-<body>
-	<h1>Buat Account Baru</h1>
+@extends('layout.master')
+
+@section('judul')
+	Halaman Register
+@endsection
+
+@section('judul2')
+	Buat Account Baru
+@endsection
+
+@section('content')
 	<h3>Sign Up Form</h3>
 <form action="/welcome" method="post">
 	@csrf
@@ -47,4 +49,4 @@
 	<br>
 	<input type="submit" value="Sign Up">
 </form>
-</html>
+@endsection
